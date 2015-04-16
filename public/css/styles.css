@@ -130,4 +130,11 @@ button:disabled {
 #vote-count {
   color: red;
 }
+.error-msg {
+  width: 60%;
+    text-align: center;
+
+}
+#fourohfourcat {
+}
 

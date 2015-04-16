@@ -1,0 +1,22 @@
+{
+  "name": "vote_server",
+  "version": "0.1.0",
+  "description": "simple server for my kitten kombat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mollyfish/vote_tracker.git"
+  },
+  "author": "kent.molly@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mollyfish/vote_tracker/issues"
+  },
+  "homepage": "https://github.com/mollyfish/vote_tracker",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

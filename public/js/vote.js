@@ -108,8 +108,6 @@ var kittenKombat = function(){
     el.attr('class', 'hidethis blink');
     var el = $('#vote-count');
     el.html('');
-    // var el = $('#play-again-wrap');
-    // el.attr('class', 'hidethis');
     var el = $('#play-again');
     el.prop('disabled', true);
     pickKittens();

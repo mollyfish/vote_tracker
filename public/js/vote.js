@@ -87,8 +87,6 @@ var kittenKombat = function(){
     el.attr('class', 'hidethis');
     var el = $('#button2-wrap');
     el.attr('class', 'hidethis');
-    // var el = $('#play-again-wrap');
-    // el.attr('class', 'showthis');
     var el = $('#play-again');
     el.prop('disabled', false);
     var el = $('#vote-count');

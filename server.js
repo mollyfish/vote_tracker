@@ -20,6 +20,7 @@ app.get('/about', function(req, res) {//translates to the URL localhost/3000/gre
 
 app.get('/secret', function(req, res) {//translates to the URL localhost/3000/greet
   //req is request and res is response
+  console.log('The truth is, I\'m a dog person.');
   res.status(200).send('<h1>The truth is, I\'m a dog person.</h1>');
   //only call ONE .send
 });

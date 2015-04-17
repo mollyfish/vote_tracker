@@ -3,6 +3,10 @@ body {
   font-size: 1em;
   padding-left: 30px;
 }
+header {
+  max-width: 840px;
+  text-align: center;
+}
 main {
   display: block;
   width: 100%;
@@ -134,7 +138,5 @@ button:disabled {
   width: 60%;
     text-align: center;
 
-}
-#fourohfourcat {
 }
 

@@ -68,16 +68,15 @@ var kittenKombat = function(){
         var el = $('#one-wins');
         el.attr('class', 'showthis blink');
         var el = $('#vote-count');
-        el.html(kittens[kittenNumber1].name + ' has ' + kittens[kittenNumber1].votes + ' votes, but ' + kittens[kittenNumber2].name + ' only has ' + kittens[kittenNumber2].votes + '.');
+        el.html('The internet masses have spoken: ' + kittens[kittenNumber1].name + ' has ' + kittens[kittenNumber1].votes + ' votes, but ' + kittens[kittenNumber2].name + ' only has ' + kittens[kittenNumber2].votes + '.');
       } else if (kittens[kittenNumber1].votes < kittens[kittenNumber2].votes) {
         var el = $('#two-wins');
         el.attr('class', 'showthis blink');
         var el = $('#vote-count');
-        el.html(kittens[kittenNumber2].name + ' has ' + kittens[kittenNumber2].votes + ' votes, but ' + kittens[kittenNumber1].name + ' only has ' + kittens[kittenNumber1].votes + '.');
+        el.html('The internet masses have spoken: ' + kittens[kittenNumber2].name + ' has ' + kittens[kittenNumber2].votes + ' votes, but ' + kittens[kittenNumber1].name + ' only has ' + kittens[kittenNumber1].votes + '.');
       } else {
-        console.log('A tie!');  
         var el = $('#vote-count');
-        el.html(kittens[kittenNumber1].name + ' has ' + kittens[kittenNumber1].votes + ' votes and so does ' + kittens[kittenNumber2].name + ' - it\'s a tie!');
+        el.html('The internet masses have spoken: ' + kittens[kittenNumber1].name + ' has ' + kittens[kittenNumber1].votes + ' votes and so does ' + kittens[kittenNumber2].name + ' - it\'s a tie!');
         var el = $('#tie1');
         el.attr('class', 'showthis blink');
         var el = $('#tie2');
@@ -87,8 +86,6 @@ var kittenKombat = function(){
     el.attr('class', 'hidethis');
     var el = $('#button2-wrap');
     el.attr('class', 'hidethis');
-    // var el = $('#play-again-wrap');
-    // el.attr('class', 'showthis');
     var el = $('#play-again');
     el.prop('disabled', false);
     var el = $('#vote-count');
@@ -111,8 +108,6 @@ var kittenKombat = function(){
     el.attr('class', 'hidethis blink');
     var el = $('#vote-count');
     el.html('');
-    // var el = $('#play-again-wrap');
-    // el.attr('class', 'hidethis');
     var el = $('#play-again');
     el.prop('disabled', true);
     pickKittens();
